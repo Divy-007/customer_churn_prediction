@@ -17,15 +17,8 @@ The solution goes beyond just modeling and focuses on the **complete ML lifecycl
 - **LLM-powered plain-English explanations and retention recommendations**
 - Deployment via FastAPI (Streamlit frontend planned)
 
-<<<<<<< HEAD
-Users can input customer information and receive a **real-time churn probability prediction along with model insights**.
-
----
----
-=======
 Users can input customer information and receive a **real-time churn probability prediction, a SHAP-grounded explanation of why, and a concrete retention recommendation** — all in one API call.
 
->>>>>>> e985317 (update readme)
 ---
 
 ## 📊 Dataset
