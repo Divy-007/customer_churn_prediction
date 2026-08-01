@@ -7,3 +7,8 @@ matplotlib
 scipy
 shap
 xgboost
+python-dotenv
+fastapi
+uvicorn
+groq
+requests

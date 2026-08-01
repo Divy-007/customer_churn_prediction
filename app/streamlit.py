@@ -5,9 +5,9 @@ Run api.py first (uvicorn app.api:app --reload --port 8000), then this.
 
 import streamlit as st
 import requests
-st.write("TEST — if you see this, the file is loading")
+import os
 
-API_URL = "http://localhost:8000/predict"  # update to your deployed URL later
+API_URL = os.environ.get("API_URL", "http://localhost:8000/predict")
 
 st.set_page_config(page_title="Churn Predictor", page_icon="📉", layout="centered")
 st.title("📉 Customer Churn Predictor")
