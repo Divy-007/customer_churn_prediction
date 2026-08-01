@@ -20,12 +20,6 @@ Users can input customer information and receive a **real-time churn probability
 
 ---
 ---
-
-## 🚀 Live Demo
-
-Streamlit App:  
-https://customer-churn-prediction-lr-rf.streamlit.app/
-
 ---
 
 ## 📊 Dataset
@@ -58,7 +52,6 @@ The goal is to build models that **predict customer churn probability** and enab
 - XGBoost
 - SHAP
 - Matplotlib
-- Streamlit
 - Joblib
 
 ---
