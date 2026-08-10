@@ -56,7 +56,7 @@ https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 - Streamlit
 - Groq (Llama 3.1) — LLM explanation & retention recommendation layer
 - Docker & Docker Compose
-- AWS EC2
+  
 
 ---
 
