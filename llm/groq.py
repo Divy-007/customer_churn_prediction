@@ -10,7 +10,7 @@ from groq import Groq
 
 
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
-MODEL_NAME = "llama-3.1-8b-instant"  # fast + free-tier friendly; swap for llama-3.3-70b-versatile if you need more quality
+MODEL_NAME = "openai/gpt-oss-20b"  # fast + free-tier friendly; swap for llama-3.3-70b-versatile if you need more quality
 
 
 def call_groq(prompt: str) -> str:
