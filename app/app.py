@@ -47,7 +47,12 @@ def to_dataframe(data: CustomerInput) -> pd.DataFrame:
     payload = data.model_dump(mode="json") if hasattr(data, "model_dump") else data.dict()
     return pd.DataFrame([payload])
 
-
+@app.get("/")
+def home():
+    return {
+        "message": "Customer Churn Prediction API is running",
+        "status": "healthy"
+    }
 @app.post("/predict", response_model=ChurnPrediction)
 def predict(data: CustomerInput):
     try:
