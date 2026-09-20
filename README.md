@@ -710,3 +710,7 @@ workflow:
 
 **Data → ML → Explainability → LLM → API → Frontend → Docker → CI/CD →
 Cloud Deployment**
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
